@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/bacg.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+}
+
+#wordle-container, #password-protection, #content {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+#wordle-input, #password-input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 5px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#wordle-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.wordle-cell {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #333;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.correct {
+    background-color: #4CAF50;
+}
+
+.present {
+    background-color: #FFC107;
+}
+
+.absent {
+    background-color: #333;
+}
+
+#content {
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pdf-container {
+    width: 100%;
+    height: calc(100vh - 100px);
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.pdf-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+#error-message {
+    color: red;
+}
