@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('images/bacg.png') no-repeat center center fixed;
+    background: 'bacg.png';
     background-size: cover;
     color: white;
     margin: 0;
