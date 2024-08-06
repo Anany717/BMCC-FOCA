@@ -13,7 +13,16 @@
         <input type="text" id="wordle-input" maxlength="5" placeholder="Enter a 5-letter word">
         <button onclick="checkWordle()">Submit</button>
         <p id="wordle-message"></p>
-        
+    </div>
+
+    <div id="password-protection" style="display:none;">
+        <img src="image.png" alt="BMCC Logo" class="logo">
+        <h1>Protected Content</h1>
+        <p>Please enter the password to access the content:</p>
+        <input type="password" id="password-input" placeholder="Password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message"></p>
+
         <h2>Encrypted Cipher:</h2>
         <p>1. Watching the sunset was their favorite evening ritual.</p>
         <p>2. Green leaves rustled gently in the evening breeze.</p>
@@ -27,15 +36,6 @@
         <p>10. Kites soared high above the beach, dancing with the wind.</p>
         <p>11. |Carefully crafted, the sculpture stood as a masterpiece.</p>
         <p>12. Laughter echoed through the hall during the comedy show.</p>
-    </div>
-
-    <div id="password-protection" style="display:none;">
-        <img src="image.png" alt="BMCC Logo" class="logo">
-        <h1>Protected Content</h1>
-        <p>Please enter the password to access the content:</p>
-        <input type="password" id="password-input" placeholder="Password">
-        <button onclick="checkPassword()">Submit</button>
-        <p id="error-message"></p>
     </div>
 
     <div id="content" style="display:none;">
