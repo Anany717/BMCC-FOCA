@@ -1,5 +1,5 @@
 // Wordle game variables
-const targetWord = "myage"; // The correct Wordle word
+const targetWord = "first"; // The correct Wordle word
 let attempts = 0;
 const maxAttempts = 999;
 
