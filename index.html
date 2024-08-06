@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forensic Case - Bonus Suspects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wordle-container">
+        <h1>Wordle Challenge</h1>
+        <div id="wordle-grid"></div>
+        <input type="text" id="wordle-input" maxlength="5" placeholder="Enter a 5-letter word">
+        <button onclick="checkWordle()">Submit</button>
+        <p id="wordle-message"></p>
+    </div>
+
+    <div id="password-protection" style="display:none;">
+        <img src="images/bmcc_logo.png" alt="BMCC Logo" class="logo">
+        <h1>Protected Content</h1>
+        <p>Please enter the password to access the content:</p>
+        <input type="password" id="password-input" placeholder="Password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message"></p>
+    </div>
+
+    <div id="content" style="display:none;">
+        <h1>Bonus Suspects</h1>
+        <div class="pdf-container">
+            <iframe src="Bonus_Suspects.docx.pdf" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
