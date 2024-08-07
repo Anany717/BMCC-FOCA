@@ -51,7 +51,7 @@ function checkWordle() {
 }
 
 // Password check logic
-const correctPassword = "`0a1b2c3d4e5"; // The correct password
+const correctPassword = "b2c3d4e5f6g7"; // The correct password
 
 function checkPassword() {
     const inputPassword = document.getElementById("password-input").value;
